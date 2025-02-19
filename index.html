@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In | Fookbace</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <section class="featLogin">
             <h1>Welcome to Fookbace</h1>
             <p>Connect with friends and the world around you on Fookbace.</p>
-            <form action="/homepage.html">
+            <form action="/homepage.html" class="featForm">
                 <div>
                     <label for="userEmail"></label>
-                    <input type="email" id="userEmail" placeholder="Email or phone number" required>
+                    <input type="email" class="userEmail" id="userEmail" placeholder="Email or phone number" required>
                 </div>
                 <div>
                     <label for="userPassword"></label>
-                    <input type="password" id="userPassword" placeholder="Password" minlength="8" maxlength="20"  required>
+                    <input type="password" class="userPassword" id="userPassword" placeholder="Password" minlength="8" maxlength="20"  required>
                 </div>
                 <div>
-                    <input type="checkbox" id="rememberMe">
+                    <input type="checkbox" class="rememberMe" id="rememberMe">
                     <label for="rememberMe">Remember me</label>
                 </div>
-                <input type="submit" value="LOGIN">
+                <input type="submit" value="LOGIN" class="loginButton">
             </form>
             <section class="featLink">
                 <a href="/reset-password.html">Forget Password?</a>
